@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechStore - Phones & Accessories</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header> 
+    <nav class="navbar">
+      <div class="logo" >TechStore</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#phones">Phones</a></li>
+        <li><a href="#laptop">Laptops</a></li>
+        <li><a href="#accessories">Accessories</a></li>
+        <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+    <h1>Latest Phones & Laptop Accessories</h1>
+    <p>Best Deals - Shop Now!</p>
+    <a href="#phones" class="btn">Shop Now</a>
+  </section>
+
+ 
+  <section id="phones" class="products">
+    <h2>Phones</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="S23_Ultra.jpg" alt="Phone 1">
+        <h3>Samsung Galaxy S23</h3>
+        <p>$699</p>
+        <button onclick="addToCart('Samsung Galaxy S23', 699)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="IP16_Pro_Man.jpg" alt="Phone 2">
+        <h3>iPhone 16 Pro</h3>
+        <p>$999</p>
+        <button onclick="addToCart('iPhone 16 Pro', 999)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Pink_IP16.jpg" alt="Phone 3">
+        <h3>iPhone 16</h3>
+        <p>$849</p>
+        <button onclick="addToCart('iPhone 16', 849)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Google.jpg" alt="Phone 4">
+        <h3>Google Pixel 9</h3>
+        <p>$449</p>
+        <button onclick="addToCart('Google Pixel 9', 499)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="AP.jpg" alt="Phone 5">
+        <h3>Ali Bapir</h3>
+        <p>$99</p>
+        <button onclick="addToCart('Ali Bapir', 99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="APP.jpg" alt="Phone 6">
+        <h3>Ali Bapir Bapir</h3>
+        <p>$69</p>
+        <button onclick="addToCart('Ali Bapir Bapir', 69)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Philips.jpg" alt="Phone 7">
+        <h3>Philips</h3>
+        <p>$89</p>
+        <button onclick="addToCart('Philips', 89)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Blue_Nokia.jpg" alt="Phone 8">
+        <h3>Nokia</h3>
+        <p>$39</p>
+        <button onclick="addToCart('Nokia', 39)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="laptop" class="products">
+    <h2>Laptops</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="Mac 1.jpg" alt="laptop 1">
+        <h3>Macbook Max</h3>
+        <p>$2399</p>
+        <button onclick="addToCart('Macbook Max', 2399)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Tuf.png" alt="laptop 2">
+        <h3>Tuf</h3>
+        <p>$1699</p>
+        <button onclick="addToCart('Tuf', 1699)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Rog.jpg" alt="laptop 3">
+        <h3>ROG</h3>
+        <p>$1599</p>
+        <button onclick="addToCart('ROG', 1599)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Alienware.jpg" alt="laptop 4">
+        <h3>alienware</h3>
+        <p>$2099</p>
+        <button onclick="addToCart('Alienware', 2099)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="mac 3.jpg" alt="laptop 5">
+        <h3>Macbook Pro</h3>
+        <p>$1999</p>
+        <button onclick="addToCart('Macbook Pro', 1999)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="HP 2.jpg" alt="laptop 6">
+        <h3>HP</h3>
+        <p>$349</p>
+        <button onclick="addToCart('HP', 349)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="msi .png" alt="laptop 7">
+        <h3>MSI</h3>
+        <p>$1299</p>
+        <button onclick="addToCart('MSI', 1299)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="preditor.jpg" alt="laptop 8">
+        <h3>Preditor</h3>
+        <p>$1399</p>
+        <button onclick="addToCart('Preditor', 1399)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="accessories" class="products">
+    <h2>Accessories</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="Anker 1.jpg" alt="Accessory 1">
+        <h3>Anker</h3>
+        <p>$139</p>
+        <button onclick="addToCart('Anker', 139)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Fan 2.jpg" alt="Accessory 2">
+        <h3>Fan Stand</h3>
+        <p>$29</p>
+        <button onclick="addToCart('Fan ', 29)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Headset 3.jpg" alt="Accessory 3">
+        <h3>Headset</h3>
+        <p>$69</p>
+        <button onclick="addToCart('Headset', 69)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Stand 4.jpg" alt="Accessory 4">
+        <h3>Stand</h3>
+        <p>$19</p>
+        <button onclick="addToCart('Stand', 19)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Mouse 5.jpg" alt="Accessory 5">
+        <h3>Mouse</h3>
+        <p>$89</p>
+        <button onclick="addToCart('Mouse', 89)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Bag 6.jpg" alt="Accessory 6">
+        <h3>Bag</h3>
+        <p>$49</p>
+        <button onclick="addToCart('Bag', 49)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Adapter 7.jpg" alt="Accessory 7">
+        <h3>Adapter</h3>
+        <p>$9</p>
+        <button onclick="addToCart('Adapter', 9)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Webcam 8.jpg" alt="Accessory 8">
+        <h3>Webcam</h3>
+        <p>$59</p>
+        <button onclick="addToCart('Webcam', 59)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="cart" class="cart-section">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="cart-total">0</span></p>
+    <button class="checkout-btn">Checkout</button>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2025 TechStore. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
